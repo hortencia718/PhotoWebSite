@@ -1,0 +1,243 @@
+.flex-container {
+   flex-wrap: wrap;
+    justify-content: center;
+    font-size: 20px;
+    flex-direction: column;
+    /* min-height: 100vh; */
+   
+}
+
+h1{
+    color:rgb(117, 135, 151);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+
+
+h3{
+    color:rgb(184, 178, 178);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/* navbar */
+nav {
+    padding: 10px 40px 10px 70px;
+    border: 1px lightgrey;
+    border-left: none;
+    border-right: none;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(109, 137, 160);
+    /* media */
+    @media (max-width:laptop){
+        display: block;
+        /* font: 10px; */
+    }
+}
+
+ nav ul {
+    
+     list-style: none;
+     flex-wrap: wrap;
+     align-items: center;
+     padding-left:0px;
+    
+ }
+
+
+ nav ul div.items {
+     padding: 0 25px;
+     display: flex;
+     justify-content: space-evenly;
+     text-decoration:none;
+     font-size: 20px;
+ }
+
+ nav ul div.items a {
+     text-decoration:none;
+     color:rgb(95, 128, 160);
+     /* font-size: 20px; */
+     /* padding: 0 14px; */
+     /* font-weight: 20px; */
+    
+ }
+
+ nav ul .items a:hover{
+     color:rgb(227, 74, 28);
+ }
+
+
+/* image border around and w/h */
+
+img {
+    border: 1px solid rgb(220, 223, 228);
+    /* width: auto; */
+    height:450px;
+    max-width: 100%;
+    
+   
+}
+
+*{
+    box-sizing: border-box;
+}
+
+ .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+
+ .col-md {
+  
+   margin: 4px;
+} 
+/* clearfix floats */
+
+.row::after {
+content: "";
+clear: both;
+display: flex;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    color:rgb(117, 135, 151);
+    font-family: 'Poppins', sans-serif;
+  }
+
+/* contact page */
+
+.container-form {
+    margin: 0px;
+    padding: 12px;
+    text-align: center;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(117, 135, 151);
+}
+
+    input{
+        height: 45px;
+    } 
+
+
+    input.form-control.submit{
+        background: rgb(172, 199, 218);
+        border-color:transparent;
+        color:rgb(44, 48, 51);
+        font-size: 20px;
+        letter-spacing: 2px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+
+
+     textarea.form-control {
+        padding: 20px;
+        width:400px;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        color:rgb(117, 135, 151);
+    } 
+   
+       
+
+        .form-control  {
+            width: 400px;
+            border:none;
+            outline: none;
+            border-bottom: 1px solid rgb(155, 164, 172);
+            font-size: 20px;
+            margin-bottom: 16px;
+            font-family: 'Poppins', sans-serif;
+            color:rgb(117, 135, 151);
+        }
+
+
+        /* about me  */
+
+        /* .para-container{
+          padding-bottom: 10px;
+          padding-top: 4%;
+        } */
+
+        /* contact page paragraph */
+       div p {
+            display:flex;
+            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+            color: rgb(117, 135, 151);
+            text-align: center;
+            justify-content: center;
+            margin-left: 0px;
+            padding: 30px;
+            width: 65%;
+            /* overflow:auto; */
+
+        }
+        
+        /* border around the p div */
+       .border-box {
+           width: 200px;
+       }
+
+       div.image.photo img {
+           height: 10%;
+           width: 20%;
+           border-radius: 4%;
+            float: right;
+            margin-right: 12%;
+            clear:both;
+            display:flex;
+          
+       }
+
+
+
+       /* footer */
+
+      footer p {
+        color: rgb(117, 135, 151);
+        width: 100%;
+      }
+
+      
+
+    
+     
+
+
+
+
+
+/* responsive for muiltiple devices */
+ @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      
+    }
+   } 
+
+
+   /* notes break points to when the styling changes per device */
+   /* desktop: 1200px */
+   /* laptop: 1024 */
+   /* tablet  768*/
+   /* phone 480 */
+
+    /* @media(hover: hover){ */
+        
+    /* } */ 
+
+  /* @media (orientation: landscape) {
+    body {
+        
+    }
+/* } */ 
