@@ -210,8 +210,7 @@ footer {
 
       
 .social-footer {
-    padding: 1rem;
-    /* background: #8a8a8a; */
+    padding: 2rem;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -229,11 +228,12 @@ footer {
   
   .social-footer .social-footer-icons .fa {
     font-size: 1.3rem;
-    color: #7f9a9f;
+    color: #66848e;
+
   }
   
   .social-footer .social-footer-icons .fa:hover {
-    color: #4a4a4a;
+    color: #ec1153;
     transition: color 0.3s ease-in;
   }
   
