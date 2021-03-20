@@ -199,6 +199,9 @@ footer {
           
        }
 
+       /* social media fonts */
+
+
 
 
        /* footer */
@@ -208,7 +211,7 @@ footer {
         width: 100%;
       }
 
-      
+/*       
 .social-footer {
     padding: 2rem;
     display: -webkit-flex;
@@ -235,7 +238,7 @@ footer {
   .social-footer .social-footer-icons .fa:hover {
     color: #ec1153;
     transition: color 0.3s ease-in;
-  }
+  /* } */ 
   
   
 
