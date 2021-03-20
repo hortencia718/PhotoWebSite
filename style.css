@@ -11,7 +11,7 @@ h1{
     color:rgb(117, 135, 151);
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    padding-top: 10px;
+    padding-bottom: 20px;
     
 }
 
@@ -26,17 +26,17 @@ h3{
 
 /* navbar */
 nav {
-    padding: 10px 40px 10px 70px;
+    padding: 20px;
     border: 1px lightgrey;
     border-left: none;
     border-right: none;
     font-family: 'Poppins', sans-serif;
     color:rgb(109, 137, 160);
     /* media */
-    @media (max-width:laptop){
+    /* @media (max-width:laptop){
         display: block;
         /* font: 10px; */
-    }
+    /* }  */
 }
 
  nav ul {
@@ -50,7 +50,7 @@ nav {
 
 
  nav ul div.items {
-     padding: 0 25px;
+     padding: 0 30px;
      display: flex;
      justify-content: space-evenly;
      text-decoration:none;
@@ -199,10 +199,6 @@ footer {
           
        }
 
-       /* social media fonts */
-
-
-
 
        /* footer */
 
@@ -213,11 +209,11 @@ footer {
 
        
 .social-icons {
-    padding: 1rem;
+    padding: 1px;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-align-items: right;
+    -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
     -webkit-justify-content: space-between;
@@ -232,6 +228,7 @@ footer {
    .social-icons .fa {
     font-size: 1.3rem;
     color: #6c848c;
+    /* justify-content: left; */
 
   }
   
@@ -240,7 +237,10 @@ footer {
     transition: color 0.3s ease-in;
   } 
   
-  
+    /* ul.menu.simple {
+        display:flex;
+        /* justify-content: left; */
+    /* } */ 
 
     
      
