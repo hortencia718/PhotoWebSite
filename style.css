@@ -133,7 +133,10 @@ footer {
         .content {
             letter-spacing: 1px;
             text-align: center;
+            margin-top: auto;
         }
+
+
     input{
         height: 20px;
     } 
