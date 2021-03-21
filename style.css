@@ -113,17 +113,29 @@ footer {
 
 /* contact page */
 
-.container-form {
-    margin: 0px;
+.wrapper {
+    width:100%;
+    max-width:680px;
+    margin: 100px;
     padding: 12px;
-    text-align: center;
-    background-position: center;
+    /* text-align: center; */
+    /* background-position: center; */
     font-family: 'Poppins', sans-serif;
     color:rgb(117, 135, 151);
+    box-sizing: border-box;
 }
 
+
+ /* .h1{
+     margin: 0px;
+ } */
+
+        .content {
+            letter-spacing: 1px;
+            text-align: center;
+        }
     input{
-        height: 45px;
+        height: 20px;
     } 
 
 
@@ -184,9 +196,9 @@ footer {
         }
         
         /* border around the p div */
-       .border-box {
+       /* .border-box {
            width: 200px;
-       }
+       } */
 
        div.image.photo img {
            height: 10%;
@@ -242,7 +254,13 @@ footer {
         /* justify-content: left; */
     /* } */ 
 
-    
+    .footer-social-container {
+        display: flex;
+        padding:0px;
+        margin: 0px;
+      justify-content: center;
+    }
+
      
 
 
