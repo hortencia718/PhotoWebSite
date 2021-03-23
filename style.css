@@ -116,7 +116,7 @@ footer {
 .wrapper {
     width:100%;
     max-width:680px;
-    margin: 100px;
+    /* margin: 100px; */
     padding: 12px;
     /* text-align: center; */
     /* background-position: center; */
@@ -179,14 +179,14 @@ footer {
 
 
         /* about me  */
-        /* .aboutme-container {
+        /* .aboutme-container h1 {
            display: flex;
+           justify-content: center;
+           padding: 10px;
+          
         } */
 
-        /* .para-container{
-          padding-bottom: 10px;
-          padding-top: 4%;
-        } */
+    
 
         /* contact page paragraph */
        div p {
@@ -203,36 +203,44 @@ footer {
 
         }
         
-        /* border around the p div */
-       /* .border-box {
+         /* border around the p div */ */
+        .border-box {
            width: 200px;
-       } */
+       } 
+       
+       
+       .contact-container {
+           display: flex;
+       }
 
-       div.image.photo img {
-           height: 10%;
-           width: 20%;
-           border-radius: 4%;
-            float: right;
-            margin-right: 12%;
-            clear:both;
-            display:flex;
+
+
+       .self-photo img{
+           height: 280px;
+           width:auto;
+           /* border-radius: 4px; */
+            /* float:right; */
+            /* margin-right: 80px; */
+            /* clear:both; */
+            /* display:flex; */
+            /* padding: 10px; */
           
        }
 
 
        /* footer */
 
-      footer p {
+      footer  {
         color: rgb(117, 135, 151);
         width: 100%;
       }
 
        
 .social-icons {
-    padding: 6px;
+    padding: 8px;
     display: -webkit-flex;
     display: -ms-flexbox;
-    /* display: flex; */
+    display: flex;
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
@@ -240,6 +248,7 @@ footer {
         -ms-flex-pack: justify;
         margin-left: 64%;
         margin-top: 25px;
+        font-size: 20px;
            
   }
   
@@ -273,12 +282,12 @@ footer {
 
     } 
 
-    .footer-social-container {
+    /* .footer-social-container {
         display: flex;
         padding:0px;
         margin: 0px;
       justify-content: center;
-    }
+    /* } */ 
 
      
 
