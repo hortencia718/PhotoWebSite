@@ -248,9 +248,9 @@ footer {
            
   }
   
-  /* .social-footer .social-footer-icons li:last-of-type {
-    margin:center;
-  } */
+  .fa, .fa-instagram, .fa-twitter, .fa-github .fa-linkedin {
+    padding-right: 8px;
+}
 
 
  
@@ -271,7 +271,7 @@ footer {
   } 
   
      ul.menu.simple {
-        /* display:flex; */
+        display:flex;
         justify-content: space-evenly; 
         margin: auto;
         padding-right: 3em;
