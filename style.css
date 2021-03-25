@@ -218,7 +218,7 @@ footer {
         main.contact-container {
            display: flex;
            align-content:center ;
-           padding:120px;
+           padding:80px;
            margin: 0px;
         } 
 
@@ -294,7 +294,7 @@ footer {
 
     /* option B conatct email */
 
-    .emailme h2,h4 {
+    .Email.me h2 {
         color: #7495a0;
         font-family: 'Poppins', sans-serif;
         display:flex;

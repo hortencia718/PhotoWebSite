@@ -1,16 +1,32 @@
-// $(document).ready();{
-//     console.log()
-// }
+// //
 
-// window.onload = function(){
-//     document.getElementById('contact-form').addEventListener('submit', function(event){
-//         event.preventDefault();
-//         // generate a five digit number for the contact_number varible
-//         this.contact_number.value = Math.random() * 100000 | 0;
-//         // id's from pervious steps 
-//         emailjs.sendform('contact_service', 'contact_form', this)
-//         .then(function(){
-//             console.log('FAILED...', error);
-//         });
-//     });
-// }
+// const nodemailer = require('nodemailer');
+// const { getMaxListeners } = require('process');
+
+// let mailTransporter = nodemailer.createTransport({
+//     service: 'gmail',
+//     auth: {
+//         user: 'xyz@gmail.com',
+//         pass: '*************'
+//     }
+// });
+
+//  let mailDetails = {
+//      from: 'xyz@gmail.com',
+//      to: 'abc@gmail.com',
+//      subject: 'test mail',
+//      text: 'Node.js testing mail for GeeksforGeeks'
+//  };
+
+//  mailTransporter.sendMail (mailDetails, function(err,data){
+//         if(err){
+//            console.log('Error Occurs')
+//         } else {
+//             console.log('Email sent successfully');
+//         }
+//  });
+
+
+ 
+ 
+
