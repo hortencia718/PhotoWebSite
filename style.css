@@ -292,6 +292,16 @@ footer {
 
 
 
+    /* option B conatct email */
+
+    .emailme h2,h4 {
+        color: #7495a0;
+        font-family: 'Poppins', sans-serif;
+        display:flex;
+        margin: 0;
+        padding: 0;
+    }
+
 
 
     /* not using for now  */
@@ -316,6 +326,14 @@ footer {
     }
    } 
 
+   @media screen and (max-width: 1200px){
+
+   }
+
+
+   @media screen and (max-width: 425px){
+
+   }
 
    /* notes break points to when the styling changes per device */
    /* desktop: 1200px */
