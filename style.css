@@ -1,3 +1,10 @@
+/* body {
+    background-color: rgb(77, 79, 79);
+/* } */ 
+
+
+
+
 .flex-container {
    flex-wrap: wrap;
     justify-content: center;
@@ -70,7 +77,7 @@ nav {
 /* image border around and w/h */
 
 img {
-    border: 1px solid rgb(220, 223, 228);
+    border: 1px solid rgb(232, 235, 240);
     /* width: auto; */
     height:450px;
     max-width: 100%;
