@@ -2,7 +2,7 @@
     background-color: rgb(77, 79, 79);
 /* } */ 
 
-.lds-ripple {
+/* .lds-ripple {
     display: inline-block;
     position: relative;
     width: 80px;
@@ -33,7 +33,7 @@
       height: 72px;
       opacity: 0;
     }
-  }
+  /* } */ 
 
 
 .flex-container {
