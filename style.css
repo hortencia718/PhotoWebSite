@@ -291,7 +291,7 @@ footer {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-justify-content: space-between;
+    /* -webkit-justify-content: space-between; */
         -ms-flex-pack: justify;
         margin-left: 64%;
         margin-top: 25px;
