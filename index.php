@@ -1,3 +1,3 @@
 <?php include_once(“home.html”); ?>
-$name = "home";
+<!-- $name = "home"; -->
 
