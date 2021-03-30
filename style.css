@@ -333,13 +333,21 @@ footer {
 
     /* option B conatct email */
 
-    .Email.me h2 {
+        /* p{
+            font-family: 'Poppins', sans-serif;
+            color: rgb(240, 36, 125);
+            font-size: 20px;
+           
+           
+        /* } */ 
+
+    /* aside.Email.me {
         color: #7495a0;
         font-family: 'Poppins', sans-serif;
         display:flex;
-        margin: 0;
+        margin-right: 40px;
         padding: 0;
-    }
+    } */
 
 
 
