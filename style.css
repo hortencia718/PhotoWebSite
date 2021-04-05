@@ -151,35 +151,35 @@ footer {
     .wrapper h1 {
     width:100%;
     display:flex;
-    /* max-width:680px; */
-    /* margin: 100px; */
-    /* padding: 12px; */
-    /* text-align: center; */
-    
-    /* background-position: center; */
     font-family: 'Poppins', sans-serif;
     color:rgb(117, 135, 151);
     box-sizing: border-box;
+    text-align: center;
+    padding: 0;
 }
 
+  /* .content {
+    
+    padding-right: 16px;
+  /* } */ 
 
 
 
- div.wrapper h1{
-     display:flex;
-     text-align: center;
-     padding: 0px;
- }
+  #contact-form {
+    justify-content: center;
+  }
 
-       /* div.content {
-            /* letter-spacing: 1px; */
-            /* text-align: left; */
-            /* margin-top: auto; */
-        /* } */ 
+      
 
 
     input{
-        height: 20px;
+        height: 50px;
+        /* padding:12px; */
+        /* color:rgb(245, 245, 239);
+        width:60%;
+        background-color:rgb(124, 163, 187);
+        border-radius: 6px;
+        border:none; */
     } 
 
 
@@ -190,8 +190,12 @@ footer {
         font-size: 20px;
         letter-spacing: 2px;
         height: 50px;
-        margin-top: 20px;
+        margin-top: 20px;    
     }
+
+
+
+   
 
 
 
@@ -205,7 +209,7 @@ footer {
    
        
 
-        .form-control  {
+         .form-control  {
             width: 400px;
             border:none;
             outline: none;
@@ -214,7 +218,7 @@ footer {
             margin-bottom: 16px;
             font-family: 'Poppins', sans-serif;
             color:rgb(117, 135, 151);
-        }
+         } 
 
 
         /* about me  */
@@ -257,22 +261,22 @@ footer {
         main.contact-container {
            display: flex;
            align-content:center ;
-           padding:80px;
+           padding:40px;
            margin: 0px;
         } 
 
 
 
            img.self-img {
-           /* height: 300px; */
-           width:auto;
-           border-radius: 4px;
-            margin-right: 80px;
-           margin-bottom: 20px;
-            /* display:flex; */
-            flex-wrap: wrap;   
+           height:auto;
+           max-width:70%;
+            display: flex;
+            border-radius: 4px;
+            /* margin-right: 55px; */
+            /* margin-left: 6rem;  */
+        
           
-       }
+        }
 
 
        /* footer */
@@ -379,7 +383,7 @@ footer {
 
 
    @media screen and (max-width: 425px){
-
+    
    }
 
    /* notes break points to when the styling changes per device */
