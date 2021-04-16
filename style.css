@@ -167,6 +167,7 @@ footer {
 
   #contact-form {
     justify-content: center;
+    
   }
 
       
@@ -201,11 +202,24 @@ footer {
 
      textarea.form-control {
         padding: 20px;
-        width:400px;
+        width:100%;
         font-size: 20px;
         font-family: 'Poppins', sans-serif;
         color:rgb(117, 135, 151);
+        border: none;
+        /* border-bottom: 1px solid rgb(117, 135, 151) */
     } 
+
+      .submit {
+        border: 1px solid rgb(124, 123, 123);
+        /* padding: 1rem; */
+        color:rgb(56, 61, 70);
+        background-color: rgb(117, 135, 151);
+        width:100%;
+        font-family: 'Poppins', sans-serif;
+        font-size: larger;
+        border-radius: 4px;
+      }
    
        
 
