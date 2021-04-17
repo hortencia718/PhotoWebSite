@@ -235,13 +235,14 @@ footer {
          } 
 
 
-        /* about me  */
-        /* .aboutme-container h1 {
+        /* email me  */
+        /* .email-me { 
            display: flex;
            justify-content: center;
            padding: 10px;
-          
-        } */
+           color:#778d94;
+           /* margin-right: 22px; */
+        /* }    */
 
     
 
@@ -281,9 +282,9 @@ footer {
 
 
 
-           img.self-img {
+           .self-img {
            height:auto;
-           max-width:70%;
+           max-width:60%;
             display: flex;
             border-radius: 4px;
             /* margin-right: 55px; */

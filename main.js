@@ -1,3 +1,4 @@
+requirejs();
 require("dotenv").config();
 
 // get the form by its id , stable elements here 
