@@ -81,7 +81,7 @@ nav {
 
 
  nav ul div.items {
-     padding: 0 30px;
+     padding: 5px;
      display: flex;
      justify-content: space-evenly;
      text-decoration:none;
@@ -96,6 +96,7 @@ nav {
  nav ul div.items a {
      text-decoration:none;
      color:rgb(95, 128, 160);
+     /* padding:5px; */
    
     
  }
@@ -139,12 +140,7 @@ clear: both;
 display: flex;
 }
 
-footer {
-    text-align: center;
-    padding: 3px;
-    color:rgb(117, 135, 151);
-    font-family: 'Poppins', sans-serif;
-  }
+
 
 /* contact page */
 
@@ -164,11 +160,11 @@ footer {
   /* } */ 
 
 
-
-  #contact-form {
+/* contact form starts here */
+  /* #contact-form {
     justify-content: center;
     
-  }
+  /* } */ 
 
       
 
@@ -193,11 +189,6 @@ footer {
         height: 50px;
         margin-top: 20px;    
     }
-
-
-
-   
-
 
 
      textarea.form-control {
@@ -234,16 +225,30 @@ footer {
             color:rgb(117, 135, 151);
          } 
 
+         /* conatct form ends here */
 
-        /* email me  */
-        /* .email-me { 
+
+
+        /* email me message optiona 2 */
+        aside.Bio h2{ 
            display: flex;
+           /* flex-wrap: wrap; */
            justify-content: center;
            padding: 10px;
            color:#778d94;
+          /* border:2px soild magenta; */
            /* margin-right: 22px; */
-        /* }    */
+        }    
 
+        aside.Bio p {
+          /* display:flex; */
+          color:#778d94;
+          font-family: 'Poppins', sans-serif;
+          margin-right: 6%;
+          /* padding-left:50%; */
+          flex-wrap: wrap;
+          
+        }
     
 
         /* contact page paragraph */
@@ -267,38 +272,47 @@ footer {
        /* }  */ 
        
        
-       /* .contact-container {
-           display: flex;
-       } */
+        /* aside.Email.me h2{
+           /* display: flex; */
+           /* color: rgb(117, 134, 148); */
+           /* font-size: 20px; */
+       /* }  */ 
 
 
        /* main container */
-        main.contact-container {
-           display: flex;
-           align-content:center ;
-           padding:40px;
-           margin: 0px;
-        } 
+       main.contact-container {
+           width: 100%;
+           max-width: 980px;
+           margin-left: auto;
+           margin-right: auto;
+           /* display: flex; */
+           /* align-content:center ; */
+           /* padding:80px; */
+           /* margin: 0px; */
+           /* border:2px solid magenta; */
+        }
 
 
-
-           .self-img {
-           height:auto;
-           max-width:60%;
-            display: flex;
-            border-radius: 4px;
-            /* margin-right: 55px; */
-            /* margin-left: 6rem;  */
-        
-          
+          .self-img {
+          max-width: 90%;
+          height: 280px;
+          border-radius: 4px;
+          flex-wrap: wrap;
+          margin-left: 35%; 
+      
         }
 
 
        /* footer */
 
-      footer  {
-        color: rgb(117, 135, 151);
-        width: 100%;
+     
+
+      footer {
+        width:100%;
+        text-align: center;
+        padding: 3px;
+        color:rgb(117, 135, 151);
+        font-family: 'Poppins', sans-serif;
       }
 
        
