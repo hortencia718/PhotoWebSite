@@ -46,10 +46,10 @@
 }
 
 h1{
-    color:rgb(117, 135, 151);
+    color:rgb(121, 143, 162);
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    padding-bottom: 20px;
+    /* padding-bottom: 15px; */
     
 }
 
@@ -59,7 +59,7 @@ h3{
     color:rgb(245, 102, 13);
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 12px;
 }
 
 
@@ -87,11 +87,12 @@ nav {
      justify-content: space-evenly;
      text-decoration:none;
      font-size: 20px;
+     font-weight: 900;
      flex-wrap: wrap;
      align-items: center;
      list-style: none;
      font-family: 'Poppins', sans-serif;
-    color:rgb(109, 137, 160);
+    color:rgb(75, 93, 108);
  }
 
  nav ul div.items a {
@@ -244,6 +245,7 @@ display: flex;
         aside.Bio p {
           /* display:flex; */
           color:#778d94;
+          font-weight: 700;
           font-family: 'Poppins', sans-serif;
           margin-right: 6%;
           /* padding-left:50%; */
@@ -310,6 +312,7 @@ display: flex;
 
       footer {
         width:100%;
+        font-weight: 800;
         text-align: center;
         padding: 3px;
         color:rgb(117, 135, 151);
