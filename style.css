@@ -1,6 +1,6 @@
-/* body {
-    background-color: rgb(77, 79, 79);
-/* } */ 
+ body {
+    background-color: rgb(255, 255, 255);
+ } 
 
 /* .lds-ripple {
     display: inline-block;
@@ -59,7 +59,7 @@ h3{
     color:rgb(245, 102, 13);
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    padding-bottom: 12px;
+    padding-bottom: 12 px;
 }
 
 
@@ -111,7 +111,7 @@ nav {
 /* image border around and w/h */
 
 img {
-    border: 1px solid rgb(232, 235, 240);
+    border: 1px solid rgb(232, 233, 235);
     /* width: auto; */
     height:450px;
     max-width: 100%;
