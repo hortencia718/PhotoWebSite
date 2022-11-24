@@ -238,7 +238,7 @@ display: flex;
            justify-content: center;
            padding: 10px;
            color:#778d94;
-          /* border:2px soild magenta; */
+          /* border:2px solid magenta; */
            /* margin-right: 22px; */
         }    
 
@@ -368,7 +368,7 @@ display: flex;
 
 
 
-    /* option B conatct email */
+    /* option B contact email */
 
         /* p{
             font-family: 'Poppins', sans-serif;
@@ -402,7 +402,7 @@ display: flex;
 
 
 
-/* responsive for muiltiple devices */
+/* responsive for multiple devices */
  @media screen and (max-width: 600px) {
     .column {
       width: 100%;
@@ -434,3 +434,34 @@ display: flex;
         
     }
 /* } */ 
+
+
+/* modal */
+.modal {
+  position: fixed;
+  left:0;
+  top: 0;
+  width: 100%;
+  height:450px;
+  background-color: rgba(0,0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.close-button{
+  float: right;
+  width: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.show-modal {
+  opacity: 1;
+  visibility: visible;
+  transform:scale(1.0) ;
+  transition: visibility 0s linear 0s opacity 0.25s 0s, transform 0.25s;
+}
