@@ -68,7 +68,7 @@ myForm.addEventListener("submit", (evt) => {
 
 
 
-//    creting elements on script for html
+//    creating elements on script for html
 // example 
 // let formForEmail = document.createElement("input")
 // console.log("input") it should log the input
@@ -96,7 +96,7 @@ myForm.addEventListener("submit", (evt) => {
 // delegation
 // find a stable element
 // add an event listener
-// add an if statment, checking to see what the children have in common
+// add an if statement, checking to see what the children have in common
 // do whatever you want evt.target
 
 // form.addEventListener("submit", function(evt){
